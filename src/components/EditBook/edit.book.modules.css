@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Staatliches&display=swap');
+
+
+.lastBookBox{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    margin: 100px auto 100px;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    background: linear-gradient(to right, rgba(148, 82, 92, 0.33), rgba(20, 170, 215, 0.16));
+    width: 600px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 0.5px solid white;
+}
+.lastBookBox > div > h2{
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid white;
+}
+.formEditBook{
+    display: flex;
+    justify-content: center;
+}
+.saveBtn{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 27% 0;
+}
+.saveBtn > button {
+    width: 120px;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    transition: 1s;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+}
+.saveBtn > button:hover{
+    width: 180px;
+    height: 23px;
+    font-size: 16px;
+    transition: 1s;
+    background: rgba(0, 0, 0, 0.16);
+    color: white;
+}

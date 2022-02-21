@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Staatliches&display=swap');
+
+.bookWrap{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    margin: 100px 0 10px 100px;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    background: linear-gradient(to right, rgba(148, 82, 92, 0.33), rgba(20, 170, 215, 0.16));
+    width: 400px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 0.5px solid white;
+    transition: 2s;
+}
+.bookWrap:hover {
+    width: 450px;
+    transition: 2s;
+}
+.titleBook h2{
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid white;
+}
+.actionBtn{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.actionBtn > button {
+    border: none;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.68);
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+.actionBtn > button:hover{
+    width: 70px;
+    font-size: 18px;
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.75);
+    background: white;
+}
+.actionBtn > button > a{
+    text-decoration: none;
+    color: white;
+}
+.actionBtn > button > a:hover{
+    color: rgba(0, 0, 0, 0.75);
+}

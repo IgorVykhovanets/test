@@ -1,0 +1,4 @@
+.booksListWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
