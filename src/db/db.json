@@ -6,20 +6,6 @@
       "author": "Boris Johnson",
       "isbn": 9781444783056,
       "id": 1
-    },
-    {
-      "title_book": "Соломон",
-      "author": "Nazar",
-      "category": "history",
-      "isbn": "12332112332",
-      "id": 5
-    },
-    {
-      "title_book": "лщуцй",
-      "author": "вйлщ",
-      "category": "вйщл",
-      "isbn": "12332112332",
-      "id": 6
     }
   ]
 }
